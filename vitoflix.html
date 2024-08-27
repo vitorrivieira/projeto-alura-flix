@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VITOFLIX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        .header {
+            background-color: #e50914;
+            color: #ffffff;
+            padding: 20px;
+            font-size: 36px;
+            text-align: center;
+            font-weight: bold;
+            width: 100%;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            max-width: 1920px;
+        }
+        .video-main {
+            flex: 2;
+            margin-right: 20px;
+        }
+        .video-description {
+            flex: 1;
+            background-color: #333;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .video-description h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .video-description p {
+            font-size: 20px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .video-stats {
+            margin-top: 15px;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .video-stats p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .video-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 1920px;
+        }
+        .video-list iframe {
+            width: 31.5%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        VITOFLIX
+    </div>
+    <div class="main-content">
+        <div class="video-main">
+            <iframe width="100%" height="540" src="https://www.youtube.com/embed/0Ic6ylMiB4c?si=sWFM5kkAmegg7UcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="video-description">
+            <h2>Nome do Vídeo Principal</h2>
+            <p>Descrição do vídeo principal. Aqui você pode colocar informações sobre o vídeo, como o que ele aborda, por que é interessante, etc.</p>
+            <div class="video-stats">
+                <p><strong>Visualizações:</strong> 1.000.000</p>
+                <p><strong>Data de Postagem:</strong> 1 de agosto de 2024</p>
+            </div>
+        </div>
+    </div>
+    <div class="video-list">
+        <iframe src="https://www.youtube.com/embed/GgIIWuzJXOM?si=5AWHUwgyURNT2Vmk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/wDMK67BYxJc?si=qZxw_C1lS91YYOiU" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/-f-emAWnJGQ?si=hkOMrLjYw7lhyrNk" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/n9hlw0m8rWw?si=tZzprCpyGE0AQ6LV" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/lZcTEyaVE7A?si=G-dCrEa7lm1L0E1x" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/K5O_a9zdJnI?si=jXckaaPXMeGn1OQG" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/aJUjcSAhEyE?si=eVfTmIjfUU01qK6p" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/pegER8sjpxo?si=jSOBowYHHFXj3nzZ" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/UDokv4o_n1o?si=p7H0T66fK8WCrDnS" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
